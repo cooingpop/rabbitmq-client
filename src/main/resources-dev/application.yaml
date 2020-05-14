@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: ms-client
+  rabbitmq:
+    host: 10.67.32.19
+    port: 5672
+    username : rabbitmq
+    password : playd123!@#
+
+  encoding:
+    charset: UTF-8
+    enabled: true
+    force: true
+
+debug: true
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
